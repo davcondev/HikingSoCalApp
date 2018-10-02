@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  header {
+    text-align: center;
+    background-color: bisque;
+    padding: 100px;
+    background: #ffa949 url('torreyPines.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%
+  }
+  h1{
+  color: #f2f2f2;
+  font-size: 3.5rem;
+  }
+  #map {
+    margin-top: 2em;
+    height: 400px;
+    width: 100%;
+    
+  
+  }
+  #tp {
+     background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+  }
+  #cowles {
+   background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+  
+  }
+  #iron {
+   background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+  
+  }
+  #stonewall {
+     background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+  }
+   #woodson {
+   background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+   }
+  
+  .temp {
+    text-align: center;
+    margin: auto;
+    font-size: 2em;
+    
+  }

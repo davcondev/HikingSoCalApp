@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>APIPROJECT</title>
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+        <link href="index.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+       <header>
+          <h1>Hiking San Diego</h1>
+            <div class='buttons'>
+          <button id="tp">Torrey Pines</button> 
+          <button id="cowles">Cowles Mt</button> 
+         <button id="iron">Iron Mt</button> 
+         <button id="stonewall">Stonewall Peak</button> 
+         <button id="woodson">Mt. Woodson</button> 
+         </div> 
+      </header>
+       
+       
+          <div id="weatherTemp">     
+          </div>
+
+          <div id="map" ></div>
+          <div id="notification-bar"> </div>
+      <script src="index.js"></script>
+     <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9r9JnWOjPfIBRgU15a_47CZXC8mjP7SA&callback=initMap">
+    </script>
+    </body>
+</html>
