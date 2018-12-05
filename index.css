@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+  }
+  html{
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background: url('./pics/TorreyPines.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  body{
+    background: none;
+  }
+  main {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 50;
+    text-shadow: 4px 4px 4px  rgba(141, 141, 141, 0.774);
+    text-align: center;
+    padding: 100px;
+    background-size: cover;
+    width: 100%
+  }
+  h1{
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 100;
+  } 
+  #map {
+    margin-top: 2em;
+    height: 400px;
+    width: 50%;
+    float: right; 
+    margin-right: 25px; 
+    display: none;
+
+  }
+  button{
+    background-color: transparent;
+  }
+  button:focus {outline:0;}
+
+  #tp:hover, #cowles:hover, #iron:hover, #stonewall:hover, #woodson:hover {
+      background-color: rgba(128, 128, 133, 0.26);
+      border-radius: 12px;
+    
+  }
+
+  #tp {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      transition-duration: 0.4s;
+  }
+  #cowles {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      transition-duration: 0.4s;
+  }
+  #iron {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      transition-duration: 0.4s;
+  }
+
+  #stonewall {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      transition-duration: 0.4s;
+  }
+   #woodson {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      transition-duration: 0.4s;
+   }
+  
+  .temp {
+    text-align: center;
+    margin: auto;
+    font-size: 2em;
+    
+  }
