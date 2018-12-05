@@ -9,25 +9,24 @@
           integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
           crossorigin="anonymous"></script>
         <link href="index.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Heebo:100" rel="stylesheet">
     </head>
-    <body>
-       <header>
-          <h1>Hiking San Diego</h1>
-            <div class='buttons'>
-          <button id="tp">Torrey Pines</button> 
-          <button id="cowles">Cowles Mt</button> 
-         <button id="iron">Iron Mt</button> 
-         <button id="stonewall">Stonewall Peak</button> 
-         <button id="woodson">Mt. Woodson</button> 
-         </div> 
-      </header>
-       
-       
-          <div id="weatherTemp">     
-          </div>
+    <body> 
+        <div class='wrapper'> 
+         <main>
+            <h1>Hiking SoCal</h1>
+                <div class='buttons'>
+                    <button id="tp">Torrey Pines</button> 
+                    <button id="cowles">Cowles Mt</button> 
+                    <button id="iron">Iron Mt</button> 
+                    <button id="stonewall">Stonewall Peak</button> 
+                    <button id="woodson">Mt. Woodson</button> 
+                </div> 
+                <div id="weatherTemp"></div>
+                <div id="map" ></div>
 
-          <div id="map" ></div>
-          <div id="notification-bar"> </div>
+         </main>  
+        </div>               
       <script src="index.js"></script>
      <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9r9JnWOjPfIBRgU15a_47CZXC8mjP7SA&callback=initMap">

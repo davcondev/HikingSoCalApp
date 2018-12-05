@@ -3,7 +3,7 @@
 
 var varZoom = [
     11, 15
-  ];
+  ]; 
   var myLatLng = [
   //default 
   {lat: 32.712412, lng: -117.174346},

@@ -1,28 +1,55 @@
 * {
     box-sizing: border-box;
   }
-  
-  header {
+  body, html{
+    height: 100%;
+  }
+  .wrapper{
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../pics/TorreyPines.jpeg');
+
+  }
+  main {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 50;
+    text-shadow: 4px 4px 4px  rgba(141, 141, 141, 0.774);
     text-align: center;
-    background-color: bisque;
     padding: 100px;
-    background: #ffa949 url('torreyPines.jpg') no-repeat center;
     background-size: cover;
     width: 100%
   }
   h1{
-  color: #f2f2f2;
-  font-size: 3.5rem;
-  }
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 100;
+  } 
   #map {
     margin-top: 2em;
     height: 400px;
-    width: 100%;
-    
-  
+    width: 50%;
+    float: right; 
+    margin-right: 25px; 
+    display: none;
+
   }
+  button{
+    background-color: transparent;
+  }
+  button:focus {outline:0;}
+
+  #tp:hover, #cowles:hover, #iron:hover, #stonewall:hover, #woodson:hover {
+      background-color: rgba(128, 128, 133, 0.26);
+      border-radius: 12px;
+    
+  }
+
   #tp {
-     background-color: #4CAF50;
       border: none;
       color: white;
       padding: 15px 32px;
@@ -32,9 +59,9 @@
       font-size: 16px;
       margin: 4px 2px;
       cursor: pointer;
+      transition-duration: 0.4s;
   }
   #cowles {
-   background-color: #4CAF50;
       border: none;
       color: white;
       padding: 15px 32px;
@@ -44,10 +71,9 @@
       font-size: 16px;
       margin: 4px 2px;
       cursor: pointer;
-  
+      transition-duration: 0.4s;
   }
   #iron {
-   background-color: #4CAF50;
       border: none;
       color: white;
       padding: 15px 32px;
@@ -57,10 +83,10 @@
       font-size: 16px;
       margin: 4px 2px;
       cursor: pointer;
-  
+      transition-duration: 0.4s;
   }
+
   #stonewall {
-     background-color: #4CAF50;
       border: none;
       color: white;
       padding: 15px 32px;
@@ -70,9 +96,9 @@
       font-size: 16px;
       margin: 4px 2px;
       cursor: pointer;
+      transition-duration: 0.4s;
   }
    #woodson {
-   background-color: #4CAF50;
       border: none;
       color: white;
       padding: 15px 32px;
@@ -82,6 +108,7 @@
       font-size: 16px;
       margin: 4px 2px;
       cursor: pointer;
+      transition-duration: 0.4s;
    }
   
   .temp {
